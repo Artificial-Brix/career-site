@@ -14,7 +14,7 @@ const Card = () => {
           <p>Responsibility (fixed ): (json)</p>
           <p>Responsibility (fixed ): (json)</p>
         </div>
-        <button className="btn card_btn">Contact form</button>
+        <button className="card_btn">Contact form</button>
       </div>
     </div>
   );
