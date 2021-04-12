@@ -9,10 +9,11 @@ const Card = () => {
         <h5>(Position Type jSON)</h5>
         <div className="card_item_content">
           <p>Responsibility (fixed ): (json)</p>
-          <p>Responsibility (fixed ): (json)</p>
-          <p>Responsibility (fixed ): (json)</p>
-          <p>Responsibility (fixed ): (json)</p>
-          <p>Responsibility (fixed ): (json)</p>
+          <p>Skills needed (fixed ): (json)</p>
+          <p>Experience needed (fixed ): (json)</p>
+          <p>Incentive/ slary (fixed ): (json)</p>
+          <p>duration/minimum agreement (fixed ): (json)</p>
+          <p>perks (fixed ): (json)</p>
         </div>
         <button className="card_btn">Contact form</button>
       </div>

@@ -1,0 +1,17 @@
+.admin_panel {
+  min-height: 100vh;
+  border: 1px solid green;
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  grid-template-rows: 80px 1fr;
+  background-color: #222;
+  color: white;
+}
+.admin_panel > div {
+  border: 1px solid gray;
+}
+
+.admin_side_navbar {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
