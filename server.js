@@ -12,6 +12,8 @@ app.get("/", (req, res) => {
 	res.send("Watching");
 });
 
+require('./src/api/routes/job.routes')(app)
+
 app.listen(process.env.PORT || port, () => {
-	console.log("Listening..");
+	console.log(`listening to port ${port}`);
 });
